@@ -1,0 +1,42 @@
+.header-shadow {
+    background: rgb(31, 31, 31);
+    height: 100vh;
+    width: 100vw;
+}
+
+.carousel {
+    padding: 0;
+    margin: 0;
+    height: 88%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#history {
+    padding: 100px;
+    background-color: rgb(31, 31, 31);
+}
+
+#history h3 {
+    text-align: center;
+    color: red;
+    font-size: 2.5em;
+}
+
+#history p {
+    font-size: 1.2em;
+    color: white;
+}

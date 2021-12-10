@@ -1,0 +1,108 @@
+.header-shadow {
+    background-image: url("https://www.wallpaperbetter.com/wallpaper/186/210/441/ferrari-599-599xx-fxx-race-car-f1-formula-one-race-track-hd-1080P-wallpaper.jpg");
+}
+
+#formula-news {
+    background-image: url("https://preview.redd.it/9nfmeonc9dq61.jpg?width=3840&format=pjpg&auto=webp&s=ee87acd570503d126b7d9f77a1e894bcf329f63a");
+    height: 100vh;
+    background-size: cover;
+}
+
+.nav_links li a:nth-child(-n + 2) {
+    color: black;
+}
+
+.news-title {
+    padding: 60px;
+}
+
+.news-title h2 {
+    font-size: 3em;
+    font-family: 'Krona One', sans-serif;
+}
+
+blockquote {
+    position: relative;
+    display: none;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+    line-height: 1.5em;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hotspots {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80%;
+}
+
+.spot {
+    text-decoration: none;
+    position: absolute;
+  	text-align: center;
+  	line-height: 32px;
+    font-size: 32px;
+  	font-weight: bold;
+  	color: rgb(219, 0, 0);
+    width: 32px;
+    height: 32px;
+	border-radius: 16px;
+	background-color: #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.spot:hover {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    color: rgb(219, 0, 0);
+}
+
+#spot-01, #spot-02 {
+    display: inline-block;
+    max-width: 250px;
+}
+
+#spot-01 {
+    position: absolute;
+    top: 55%;
+    left: 65%;
+}
+
+#spot-02 {
+    position: absolute;
+    top: 35%;
+    left: 33%;
+}
+
+#spot-03 {
+    position: absolute;
+    top: 55%;
+    left: 45%;
+}
+
+blockquote {
+    max-width: 300px;
+}
+
+#spot-03:hover > blockquote {
+    display: block;
+    left: 30px;
+}
+
+#spot-02:hover > blockquote {
+    display: block;
+    left: 30px;
+}
+
+#spot-01:hover > blockquote {
+    display: block;
+    left: 30px;
+}
+

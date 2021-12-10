@@ -1,0 +1,180 @@
+.header-shadow {
+    background-image: url("https://i.ibb.co/t8Ng89w/eb0c4152-ferrari-f8-tributo-new-driving-video.gif");
+}
+
+/* font-family: 'Khula', sans-serif;
+font-family: 'Lato', sans-serif; 
+font-family: 'Krona One', sans-serif;*/
+
+.header-logo {
+    margin-left: 85%;
+    position: fixed;
+}
+
+body {
+    background-color: rgb(31, 49, 77);
+}
+
+#intro {
+    background-color: rgb(31, 49, 77);
+    color: white;
+}
+
+.intro-image {
+    height: 75vh;
+    width: 100%;
+}
+
+.intro-image img {
+    object-position: bottom;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.intro-title {
+    width: 100%;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    padding: 30px;
+}
+
+.intro-title h2 {
+    font-size: 3em;
+}
+
+.intro-desc {
+    padding: 50px;
+    margin-bottom: 100px;
+}
+.intro-desc.container {
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.consumptions {
+    padding-bottom: 30px;
+}
+
+.col-title {
+    color: rgb(150, 150, 150);
+    padding-bottom: 10px;
+    font-size: 2em;
+    font-family: 'Krona One', sans-serif;
+}
+
+.consumptions h5{
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+}
+
+.collapse-btn {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+.collapse-btn-wrapper {
+    border-top: 2px solid white;
+    width: 100%;
+    padding: 10px;
+}
+
+.collapse-btn-extend {
+    float: right;
+}
+
+#specs {
+    padding: 100px;
+    background-color: rgb(41, 59, 88);
+}
+
+#specs a:hover {
+    color: white;
+}
+
+.my-card {
+    background-color: rgb(41, 59, 88) !important;
+    border: none !important;
+}
+
+.card-ul {
+    background-color: rgb(41, 59, 88);
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    width: 100%;
+}
+
+.card-ul .card-li {
+    border-bottom: 1px solid rgb(150, 150, 150);
+    padding: 7px;
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+    color: rgb(110, 110, 110);
+}
+
+.card-ul .card-li span {
+    float: right;
+    color: white;
+    font-weight: 800;
+}
+
+#engine {
+    background-color: #1a2133;
+    padding: 50px;
+}
+
+.engine-section-title {
+    max-width: 400px;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 2.5em;
+}
+
+.engine-image {
+    width: 100%;
+    text-align: center;
+}
+
+.engine-image img{
+    height: 800px;
+}
+
+.engine-desc {
+    position: relative;
+    z-index: 3;
+    top: 100px;
+}
+
+.engine-type {
+    margin-bottom: 300px;
+}
+
+.engine-type h2 {
+    font-size: 4em;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+}
+
+.engine-type h6 {
+    font-size: 1em;
+    color: rgb(150, 150, 150);
+}
+
+.engine-power h2{
+    color: white;
+    font-size: 4em;
+    font-family: 'Krona One', sans-serif;
+}
+
+.engine-power h6 {
+    color: rgb(150, 150, 150);
+    font-size: 1em;
+}
+
+/* rgb(30, 41, 62); */
